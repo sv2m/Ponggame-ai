@@ -29,9 +29,9 @@ let ball = {
     x: canvas.width / 2,
     y: canvas.height / 2,
     radius: BALL_RADIUS,
-    speed: 5,
-    velocityX: 5 * (Math.random() > 0.5 ? 1 : -1),
-    velocityY: 5 * (Math.random() > 0.5 ? 1 : -1),
+    speed: 10,
+    velocityX: 10 * (Math.random() > 0.5 ? 1 : -1),
+    velocityY: 10 * (Math.random() > 0.5 ? 1 : -1),
     color: "#FFF"
 };
 
